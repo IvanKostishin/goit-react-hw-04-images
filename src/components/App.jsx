@@ -48,6 +48,7 @@ export const App = () => {
       }
       fetchData();
     }
+    // eslint-disable-next-line
   }, [page, query]);
 
   const normalizedImage = array => {
