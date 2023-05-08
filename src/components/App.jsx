@@ -48,7 +48,7 @@ export const App = () => {
       }
       fetchData();
     }
-  }, [page, query]);
+  }, [page, query, images]);
 
   const normalizedImage = array => {
     return array.map(({ id, webformatURL, largeImageURL, tags }) => ({
